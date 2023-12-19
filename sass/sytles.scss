@@ -126,18 +126,12 @@ body {
 .encabezado-img{
     background-image: url(../images/7.menu-slider/fondo4.jpg);
     height: 750px;
-    background-position: center center;
-    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
-    display: flex;
-    padding: 60px 10%;
-    flex-wrap: wrap;
-
 }
 .encabezado-img h1{
     font-size: 95px;
@@ -146,7 +140,6 @@ body {
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    font-size: 8vw;
     src: url(https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2zE0YBB.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
     display: block;
@@ -165,7 +158,7 @@ body {
 /*Estilos Barra de Busqueda*/
 .barra-buscar {
 	position: absolute;
-	left: 50%;
+	left: 15%;
 	top: 75%;
 	transform: translate(-50%,-50%);
 	padding: 10px;
@@ -353,29 +346,22 @@ input {
 
 /*Main*/
 /*Mtitulo principal*/
-.bienv{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: auto;
-    justify-content: center;
-    padding: 60px 10%;
-}
 .bienv h1{
+    margin: auto;
     font-size: 95px;
     padding: 50px;
     font-family: 'Oxanium';
     font-style: normal;
     font-display: swap;
     font-weight: 400;
-    font-size: 8vw;
     src: url(https://fonts.gstatic.com/s/oxanium/v19/RrQQboN_4yJ0JmiMe2zE0YBB.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 12ch;
-    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
-    overflow: hidden;
+    width: 13ch;
+    animation: typing 2s steps(13), blink .5s infinite step-end alternate;
+    overflow: hidden;   
 }
 .bienv p{
     margin: auto;
@@ -456,8 +442,8 @@ input {
 .galeria-imgs{
     margin: auto;
     display: flex;
-    width: auto;
-    height: 500px; 
+    width: 1400px;
+    height: 860px; 
 }
 .galeria-imgs img{
     width: 0px;
